@@ -31,6 +31,9 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
             public void onClick(View v) {
                 Toast notificacion = Toast.makeText(Principal.this, "esistencia", Toast.LENGTH_SHORT);
                 notificacion.show();
+
+                Intent intencion = new Intent(getApplicationContext(), Menu.class);
+                startActivity(intencion);
             }
         }));
 
