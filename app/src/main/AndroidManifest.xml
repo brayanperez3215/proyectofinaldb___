@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Menu"
-            android:label="@string/title_activity_menu"
+            android:name=".Menuactivity"
+            android:label="@string/title_activity_menuactivity"
             android:theme="@style/AppTheme"></activity>
     </application>
 

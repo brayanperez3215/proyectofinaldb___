@@ -7,4 +7,66 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_menuactivity">Menuactivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="resistencia">RESISTENCIA</string>
+    
+<string name="resistencia2">la resistencia fue definida por ohm  como la relacion entre la diferencia de potencial de los extremos de un conductor y la corriente que fluye a travez del conductor
+</string>
+
+    <string name="kirchoff">LEY DE KIRCHOFF</string>
+
+    <string name="kirchoff2">la suma algebraica de todas las tensiones en una red electrica es igual a cero igual que la suma que entran en un nodo es igual a cero
+</string>
+
+    <string name="ohm">LEY DE OHM</string>
+
+    <string name="ohm2">la corriente a traves de un conductor electrico es directamente proporcional a la tension aplicada a sus terminales e inversamente proporcional a la resistencia
+</string>
+
+    <string name="potencia">POTENCIA</string>
+
+    <string name="potencia2">la energia electrica generada al mismo tiempo por un dispositivo de dos terminales es el producto de la diferencia de potencial entre las terminales y la corriente electrica atravez de un dispositivo
+</string>
+
+    <string name="capacitancia">CAPACITANCIA</string>
+
+    <string name="capacitancia2">la capacitancia es una medida de su capacidad para almacenar carga de energia electrica y es igal a la relacion carga (Q) y el voltaje (V)
+</string>
+    <string name="diodo">DIODO</string>
+
+    <string name="diodo2">el diodo es un dispositivo semiconductor con dos terminales que solo permiten el flujo de corriente en una direccion
+</string>
+    <string name="inductancia">INDUCTANCIA</string>
+
+    <string name="inductancia2">medida a la oposicion a un cambio n la corriente de un inductor o bobina que almacena energia en presencia de un campo magnetico definido entre= flujo magnetico (O), corriente electrica (I)),y vueltas (N)
+</string>
+
+    <string name="transistor">TRANSISTOR</string>
+
+    <string name="transistor2">es un dispositivo semiconductor con tres conexiones que es capaz de amplificar y rectificar una señal
+</string>
+
+    <string name="amplificadores">AMPLIFICADORES OPERACIONALES</string>
+
+    <string name="amlificadores2">es un amplificador de voltaje electronico de alta ganancia acoplado, con una entrada diferencial y por lo general una salida de extremo unico
+</string>
+
+    <string name="filtros">FILTROS ELECTRONICOS</string>
+
+    <string name="filtros2"> son circuitos analogicos que realizan funcionesde procesamiento de señales, para eliminar frecuencias no deseada de la señal
+</string>
+
+    <string name="combinacionales">SISTEMAS COMBINACIALES</string>
+
+    <string name="combinacionales2"> es un sistema que utiliza diferentes puertas digitales en el circuito por ejemplo: codificador,decodificador,multiplexor y demultiplexor,las salidas dependen solo de sus entradas
+</string>
+
+    <string name="secuenciales">SISTEMAS SECUENCIALES</string>
+
+    <string name="secuenciales2">es un tipo de circuito logico cuya salida depende no solo del valor presente desus señales de entrada sino sus pasadas entradas
+</string>
+
 </resources>

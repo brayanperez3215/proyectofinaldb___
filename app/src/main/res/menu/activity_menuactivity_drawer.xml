@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/resistencia"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="RESISTENCIA" />
+        <item
+            android:id="@+id/kirchoff"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="LEY KIRCHOFF" />
+        <item
+            android:id="@+id/ohm"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="LEY OHM" />
+        <item
+            android:id="@+id/potencia"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="POTENCIA" />
+        <item
+            android:id="@+id/capacitancia"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="CAPACITANCIA" />
+        <item
+            android:id="@+id/inductancia"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="INDUCTANCIA" />
+        <item
+            android:id="@+id/diodo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="DIODO" />
+        <item
+            android:id="@+id/transistor"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="TRANSISTOR" />
+        <item
+            android:id="@+id/amplificador"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="AMPLIFICADOR" />
+        <item
+            android:id="@+id/filtros"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="FILTROS" />
+        <item
+            android:id="@+id/combinacionales"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="COMBINACIONALES" />
+        <item
+            android:id="@+id/secuenciales"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="SECUENCIALES" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

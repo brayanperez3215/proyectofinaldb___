@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resistenciaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="373dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="363dp"
+                    android:layout_height="301dp"
+                    android:layout_gravity="top|center"
+                    android:foregroundGravity="top|center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ley1" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/kirchoff"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="349dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="351dp"
+                android:layout_height="229dp"
+                android:layout_gravity="center"
+                android:text="@string/kirchoff2"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+</FrameLayout>
